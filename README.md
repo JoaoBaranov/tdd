@@ -4,14 +4,14 @@ Oi! Esse repositório tem a resolução dos 3 exercícios de **JUnit e TDD** da 
 Eu escolhi fazer em **Python com pytest**, porque já tenho mais costume com a linguagem e o `pytest-cov`
 deixa muito fácil mostrar a cobertura de código.
 
-> **URL do repositório:** `https://github.com/SEU-USUARIO/tdd-projeto` *(troquei pelo meu link na hora de entregar)*
+> **URL do repositório:** `https://github.com/JoaoBaranov/tdd` *(troquei pelo meu link na hora de entregar)*
 
 ---
 
 ## Estrutura do projeto
 
 ```
-tdd-projeto/
+tdd/
 ├── ex1_triangulo/
 │   └── triangulo.py              # classe Triangulo + enum TipoTriangulo
 ├── ex2_pessoa/
@@ -38,8 +38,8 @@ então o "build" aqui é só criar o ambiente virtual e instalar as dependência
 
 ```bash
 # 1. clonar o repositório
-git clone https://github.com/SEU-USUARIO/tdd-projeto.git
-cd tdd-projeto
+git clone https://github.com/JoaoBaranov/tdd.git
+cd tdd
 
 # 2. criar e ativar o ambiente virtual
 python -m venv .venv
